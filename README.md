@@ -14,9 +14,9 @@
 - И в `CAUconfig.json` добавляем:
 ```
 {
-    "urlCheck": "https://raw.githubusercontent.com/user/program_repo/master/UPDATE.json",
+    "urlCheck": "https://github.com/user/program_repo/blob/master/UPDATE.json?raw=true",
     "appVersion": "v1.0",
-    "urlDownload": "https://raw.githubusercontent.com/user/program_repo/master/program.exe",
+    "urlDownload": "https://github.com/user/program_repo/blob/master/program.exe?raw=true",
     "downloadPath": "program.exe"
 }
 ```
