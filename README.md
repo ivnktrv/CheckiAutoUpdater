@@ -1,4 +1,4 @@
-<img src="img/cau_banner.png" width="450">
+<img src="img/cau_banner.png">
 
 ***
 
