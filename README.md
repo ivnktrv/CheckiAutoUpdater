@@ -1,10 +1,14 @@
+<img src="img/cau_banner.png" width="450">
+
+***
+
 **CheckiAutoUpdater (CAU)** - простенькая программа, которая обновляет какой либо файл с удалённого репозитория.
 
 **Примечание:** вместе с прогой дожен быть файл конфигурации: `CAUconfig.json`.
 
 ***
 
-<img src="/img/cau_work.png" width="400px">
+<img src="img/cau_work.png" width="400px">
 
 ***
 
