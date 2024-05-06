@@ -9,10 +9,8 @@ class Program
     static void Main(string[] args)
     {
         Dictionary<string, string>? currentVer = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("CAUconfig.json"));
-        using var client = new WebClient();
-        
-        var checkNewVer = client.DownloadString(currentVer["urlCheck"]);
-
+        using WebClient client = new WebClient();
+        string checkNewVer = client.DownloadString(currentVer["urlCheck"]);
         byte[] readResponse = Encoding.UTF8.GetBytes(checkNewVer);
         Dictionary<string, string>? newVer = JsonConvert.DeserializeObject<Dictionary<string, string>>(Encoding.UTF8.GetString(readResponse));
 
