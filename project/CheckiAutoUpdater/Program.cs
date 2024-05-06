@@ -22,8 +22,8 @@ class Program
             if (key.Key == ConsoleKey.Y || key.Key == ConsoleKey.Enter)
             {
                 Console.WriteLine($"\n\n[...] Скачивание с {currentVer["urlDownload"]}");
-                client.DownloadFile(currentVer["urlDownload"], currentVer["downloadPath"]);
-                Console.WriteLine($"[...] Установка. Путь: {currentVer["downloadPath"]}");
+                client.DownloadFile(currentVer["urlDownload"], currentVer["installPath"]);
+                Console.WriteLine($"[...] Установка. Путь: {currentVer["installPath"]}");
                 currentVer["appVersion"] = newVer["appVersion"];
                 var jsonData = JsonConvert.SerializeObject(currentVer, Formatting.Indented);
                 File.WriteAllText("CAUconfig.json", jsonData);

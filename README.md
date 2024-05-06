@@ -27,14 +27,14 @@
     "urlCheck": "https://github.com/user/program_repo/blob/master/UPDATE.json?raw=true",
     "appVersion": "v1.0",
     "urlDownload": "https://github.com/user/program_repo/blob/master/program.exe?raw=true",
-    "downloadPath": "program.exe"
+    "installPath": "program.exe"
 }
 ```
 ***
 - `urlCheck`: следить за изменениями в файле `UPDATE.json` в удалённом репозитории.
 - `appVersion`: текущая версия файла в локальном компьютере.
 - `urlDownload`: ссылка на скачивание обновлённого файла в репозитории.
-- `downloadPath`: по какому пути загрузить обновлённый файл.
+- `installPath`: по какому пути загрузить обновлённый файл.
 ***
 
 - Обновили мы `program.exe` до версии `v2.0`, теперь надо изменить соддержимое `UPDATE.json`:

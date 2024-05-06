@@ -14,6 +14,7 @@
 	<PublishReadyToRun>true</PublishReadyToRun>
 	<PublishTrimmed>true</PublishTrimmed>
   	<TrimMode>link</TrimMode>
+  	<Version>1.0.1</Version>
   </PropertyGroup>
 	
   <ItemGroup>
